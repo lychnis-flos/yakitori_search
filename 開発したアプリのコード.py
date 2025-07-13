@@ -20,7 +20,7 @@ merged_df=pd.read_csv("整形・加工後のデータ.csv")
 
 
 # streamlistの部品設計
-st.title("サロンサーチ")
+st.title("大阪心斎橋近くの焼き鳥店サーチ")
 
 #　フィルタ設定
 price_limit=st.slider("最低価格の上限",min_value=1000,max_value=10000,step=200,value=6000)
